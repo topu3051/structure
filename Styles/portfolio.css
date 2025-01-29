@@ -1,3 +1,12 @@
+
+/* header Related styles */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 /* Nav related Styles */
 nav{
     display: flex;
@@ -42,16 +51,37 @@ nav a {
     font-weight: 700;
     padding: 15px 35px;
 }
-
-/* header Related styles */
-.header{
-    background-color: #FFF8F3;
+.dark-2{
+    color: #474747;
 }
+
+
+/* banner Styles */
 .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
     align-items: center;
+}
+.banner-content{
+    max-width: 580px;
 }
 .banner .profile-pic{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+}
+.profile-pic{
+    width: 580px;
 }
